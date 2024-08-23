@@ -1,0 +1,116 @@
+.backvideo video{
+     position: absolute;  
+     z-index: -1; 
+    
+   right: 0;
+
+     top: 0; 
+    width: 100%;
+    height: 100vh;
+  }
+  
+  @media(min-aspect-ratio:16/9){
+    .backvideo video{
+      width: 100%;
+      height: auto;
+    }
+  }
+    @media(min-aspect-ratio:16/9){
+      .backvideo video{
+        width: 100%;
+        height: auto;
+      }
+    }
+  
+  .text{
+    text-align: center;
+    
+  }
+  
+  .text a{
+    text-decoration: none;
+    display: inline-block;
+    
+    background: linear-gradient(to left,
+                      rgb(247, 54, 247),
+                      rgb(70, 20, 106),
+                      rgb(0, 0, 63),
+                      rgb(147, 2, 152),
+                      rgb(76, 163, 229),
+                      rgb(0, 255, 166),
+                      red);
+                      
+              -webkit-background-clip: text;
+              color: transparent;
+    font-size: 30px;
+    border: 2px solid #6a00ff9e;
+    padding: 14px 70px;
+    border-radius: 50px;
+  
+    font-weight: 600;
+  }
+  
+  .text h1{
+    font-size: 150px;
+
+    font-weight: 600;
+    margin-bottom: 1px;
+     
+              
+               color: rgb(244, 118, 255); 
+              text-shadow:
+              0 0 4px rgb(2, 68, 109),
+              0 0 10px rgb(2, 68, 109),
+              0 0 18px rgb(2, 68, 109),
+              0 0 18px #f09,
+              0 0 33px #f09,
+              0 0 40px #f09,
+              0 0 54px #f09,
+              0 0 100px #f09; 
+  }
+  .text h2{
+    margin-bottom: 100px;
+    word-spacing: 10px;
+     font-weight: 600; 
+     color: rgb(229, 152, 250);
+    display: block;
+      
+  }
+  
+  .button{
+  
+    margin-bottom: 50px;
+    box-shadow: inset 0 0 3rem rgb(235, 132, 245);
+}
+
+.button:hover{
+  background: transparent; 
+  
+
+  background: linear-gradient(to right,
+  rgb(247, 54, 247),
+  rgb(70, 20, 106),
+  rgb(0, 0, 63),
+  rgb(147, 2, 152),
+  rgb(76, 163, 229),
+  rgb(0, 255, 166),
+  red);
+  
+-webkit-background-clip: text;
+color: transparent;
+  border-color: rgb(147, 2, 152);
+
+     
+  color: rgb(132, 180, 231); 
+               box-shadow:
+              0 0 2px rgb(2, 68, 109),
+              0 0 5px rgb(2, 68, 109),
+              0 0 9px rgb(2, 68, 109),
+              0 0 9px #f09,
+              0 0 12px #f09,
+              0 0 16px #f09,
+              0 0 16px #f09,
+              0 0 30px #f09; 
+}
+
+  
