@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family:"montserrat";
+} 
+.head2 h2{
+    padding:20px;
+    display: flex;
+    background: linear-gradient(to right,
+    rgb(247, 54, 247),
+    rgb(135, 15, 221),
+    rgb(97, 10, 197),
+    rgb(180, 9, 185),
+    rgb(146, 72, 189),
+    rgb(219, 61, 224),
+    red);
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 700px;
+}
+.head2{
+    background-color: #3c4043;
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5); 
+    display:flex;
+    justify-content: space-between;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin-right: 300px;    
+}
+.nav_menu a{
+    font-size: 0.9rem;
+    transition: all 400ms ease;
+    color: #ffffff; 
+}
+.nav_menu a:hover{
+    color: #05abb1;
+}
+.head2 img{
+    height: 40px;
+    width: 40px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.profile a {
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.profile a:hover {
+    color: #05abb1;
+}

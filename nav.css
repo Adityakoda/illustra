@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family:"montserrat";
+} 
+.head h2{
+    padding:20px;
+    display: flex;
+    background: linear-gradient(to right,
+    rgb(247, 54, 247),
+    rgb(135, 15, 221),
+    rgb(0, 0, 63),
+    rgb(88, 8, 91),
+    rgb(76, 163, 229),
+    rgb(0, 255, 166),
+    red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.head{
+    background-color: #3c4043;
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);  
+}
+.btn1{
+    padding:15px 25px;
+    border-radius:40px;
+    border:1px solid beige;
+    color: rgba(242, 191, 234, 0.954); 
+    cursor: pointer;
+}
+.btn2{
+    padding:15px 25px;
+    border-radius:40px;
+    border:1px solid beige;
+    cursor: pointer;
+    color: rgba(242, 191, 234, 0.954); 
+    margin-left:10px;
+}
+.btn-container{ 
+    margin-left:1100px;
+    margin-top:-60px;
+    padding-bottom:10px;
+}
+.btn1:hover{
+    background-color: beige;
+    
+    color:black;
+}
+.btn2:hover{
+    background-color: beige;
+    color:black;
+}
